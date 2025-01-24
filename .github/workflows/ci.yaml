@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
       - run: pnpm install --frozen-lockfile
+      - run: pnpm check
       - run: pnpm lint
 
   npm-publish-dry-run-and-upload-pkg-pr-now:
