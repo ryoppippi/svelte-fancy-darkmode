@@ -11,7 +11,8 @@
 <DarkMode.Header themeColors={{ dark: '#000000', light: '#ffffff' }} />
 
 <div class='button-container'>
-	{#each { length: 3 } as _ (_)}
+	<!-- eslint-disable-next-line svelte/require-each-key -->
+	{#each { length: 3 } as _}
 		<!-- darkmode toggle button -->
 		<!-- set icons or text for the button with snippets -->
 		<DarkMode.ToggleButton>
