@@ -1,7 +1,7 @@
 {
 	"name": "svelte-fancy-darkmode",
 	"type": "module",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"packageManager": "pnpm@10.0.0",
 	"description": "A fancy dark mode toggle for Svelte",
 	"author": "ryoppippi",
