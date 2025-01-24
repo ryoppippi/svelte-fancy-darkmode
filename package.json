@@ -3,7 +3,17 @@
 	"type": "module",
 	"version": "0.0.0",
 	"packageManager": "pnpm@10.0.0",
+	"description": "A fancy dark mode toggle for Svelte",
+	"author": "ryoppippi",
 	"license": "MIT",
+	"repository": "ryoppippi/svelte-fancy-darkmode",
+	"keywords": [
+		"svelte",
+		"dark mode",
+		"toggle",
+		"theme",
+		"fancy"
+	],
 	"sideEffects": [
 		"**/*.css"
 	],
