@@ -35,6 +35,9 @@ importers:
       eslint-plugin-svelte:
         specifier: ^2.46.1
         version: 2.46.1(eslint@9.18.0)(svelte@5.19.2)
+      esm-env:
+        specifier: ^1.2.2
+        version: 1.2.2
       publint:
         specifier: ^0.3.2
         version: 0.3.2
