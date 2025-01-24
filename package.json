@@ -32,7 +32,7 @@
 	},
 	"svelte": "./dist/index.js",
 	"peerDependencies": {
-		"svelte": "^5.0.0"
+		"svelte": "^5.19.2"
 	},
 	"dependencies": {
 		"esm-env": "^1.2.2"
