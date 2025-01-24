@@ -16,3 +16,12 @@ npm install svelte-fancy-darkmode
 ## Usage
 
 See the [example page](./src/routes/+page.svelte).
+
+## Example Website
+
+- https://ryoppippi.com
+- https://pr.ryoppippi.com
+
+## License
+
+[MIT](./LICENSE)
