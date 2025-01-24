@@ -17,11 +17,11 @@
 		<!-- set icons or text for the button with snippets -->
 		<DarkMode.ToggleButton>
 			{#snippet darkIcon()}
-				<MoonToSunny />
+				<SunnyToMoon />
 			{/snippet}
 
 			{#snippet lightIcon()}
-				<SunnyToMoon />
+				<MoonToSunny />
 			{/snippet}
 		</DarkMode.ToggleButton>
 	{/each}
