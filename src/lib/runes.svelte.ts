@@ -75,4 +75,22 @@ export class DarkMode {
 	};
 }
 
+/**
+ * rune for toggling and checking dark mode
+ *
+ * @example
+ * ```svelte
+ * <script>
+ *   import { darkMode } from '$lib/runes.svelte';
+ * </script>
+ *
+ * <button on:click={darkMode.toggleMode}>
+ *
+ * {#if $darkMode.isDark}
+ *   <p>Dark Mode</p>
+ * {:else}
+ *   <p>Light Mode</p>
+ * {/if}
+ * ```
+ */
 export const darkMode = new DarkMode();
