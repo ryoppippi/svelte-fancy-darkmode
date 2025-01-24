@@ -1,7 +1,7 @@
 <script lang='ts'>
 	import type { ThemeColors } from './types.js';
-	import Meta from './Meta.svelte';
 	import HeaderScript from './HeaderScript.svelte';
+	import Meta from './Meta.svelte';
 
 	type Props = {
 		/**
@@ -20,7 +20,6 @@
 		restoreThemeOnLoadPage = true,
 	}: Props = $props();
 </script>
-
 
 <HeaderScript {restoreThemeOnLoadPage} />
 <Meta {themeColors} />
