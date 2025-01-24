@@ -1,22 +1,38 @@
 <script lang='ts'>
 	type Props = {
+		/**
+		 * The color to use when the user has a dark theme.
+		 */
 		darkThemeColor?: string;
+
+		/**
+		 * The color to use when the user has a light theme.
+		 */
 		lightThemeColor?: string;
+
+		/**
+		 * Whether to restore the theme on page load.
+		 */
+		restoreThemeOnLoadPage?: boolean;
 	};
 
 	const {
 		darkThemeColor,
 		lightThemeColor,
+		restoreThemeOnLoadPage = true,
 	}: Props = $props();
 </script>
 <svelte:head>
-	<script>
-		if ( localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-		document.documentElement.classList.add('dark')
-		} else {
-		document.documentElement.classList.remove('dark')
-		}
-	</script>
+	{#if restoreThemeOnLoadPage}
+		<script>
+			if ( localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+			document.documentElement.classList.add('dark')
+			} else {
+			document.documentElement.classList.remove('dark')
+			}
+		</script>
+	{/if}
+
 	{#if darkThemeColor != null}
 		<meta name='theme-color' content={darkThemeColor} media='(prefers-color-scheme: dark)' />
 	{/if}
