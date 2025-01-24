@@ -1,5 +1,5 @@
 import { BROWSER as browser } from 'esm-env';
-import { CheckTransitions } from './transition.svelte.js';
+import { prefersUseViewTransitions } from './transition.svelte.js';
 import { withoutTransition } from './without-transition.js';
 
 /**
@@ -8,7 +8,6 @@ import { withoutTransition } from './without-transition.js';
 export class DarkMode {
 	_isDark = $state(true);
 	_mode: 'dark' | 'light' = $derived(this._isDark ? 'dark' : 'light');
-	ct = new CheckTransitions();
 
 	constructor() {
 		if (browser) {
@@ -43,7 +42,7 @@ export class DarkMode {
 	 * @see https://github.com/vuejs/vitepress/pull/2347
 	 */
 	toggle = (event: MouseEvent) => {
-		if (!this.ct?.isAppearanceTransition) {
+		if (!prefersUseViewTransitions.current) {
 			this._toggleMode();
 			return;
 		}
