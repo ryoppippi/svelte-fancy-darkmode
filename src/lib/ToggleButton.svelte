@@ -23,11 +23,11 @@
 
 <button
 	aria-label='Toggle Dark Mode'
-	onclick={darkMode.toggleDark}
+	onclick={darkMode.toggle}
 	type='button'
 >
 
-	{#if darkMode.isDark}
+	{#if darkMode.current === 'dark'}
 		{@render darkIcon()}
 	{:else}
 		{@render lightIcon()}
