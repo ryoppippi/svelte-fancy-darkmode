@@ -5,7 +5,7 @@ import { withoutTransition } from './without-transition.js';
 /**
  * Class for toggling dark mode
  */
-export class DarkMode {
+export class Mode {
 	_isDark = $state(true);
 	_mode: 'dark' | 'light' = $derived(this._isDark ? 'dark' : 'light');
 
@@ -90,21 +90,21 @@ export class DarkMode {
  * @example
  * ```svelte
  * <script>
- *   import { darkMode } from '$lib/runes.svelte';
+ *   import { mode } from '$lib/runes.svelte';
  * </script>
  *
  * <button
- *  onclick={darkMode.toggle}
+ *  onclick={mode.toggle}
  *  aria-label="Toggle Dark Mode"
  *  type="button"
  * >
  * </button>
  *
- * {#if $darkMode.current === 'dark'}
+ * {#if mode.current === 'dark'}
  *   <p>Dark Mode</p>
  * {:else}
  *   <p>Light Mode</p>
  * {/if}
  * ```
  */
-export const darkMode = new DarkMode();
+export const mode = new Mode();

@@ -27,7 +27,7 @@
 	{/each}
 </div>
 
-{#if DarkMode.darkMode.current === 'dark'}
+{#if DarkMode.mode.current === 'dark'}
 	<p>Dark mode is active.</p>
 {:else}
 	<p>Dark mode is inactive.</p>
