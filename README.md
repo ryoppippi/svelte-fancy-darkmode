@@ -6,3 +6,13 @@
 [![npm downloads](https://img.shields.io/npm/dm/svelte-fancy-darkmode?color=yellow)](https://npmjs.com/package/svelte-fancy-darkmode)
 
 A beautiful dark mode toggle for your Svelte app using view transition api.
+
+## Installation
+
+```bash
+npm install svelte-fancy-darkmode
+```
+
+## Usage
+
+See the [example page](./src/routes/+page.svelte).
