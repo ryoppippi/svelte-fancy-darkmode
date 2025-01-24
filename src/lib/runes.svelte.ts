@@ -2,6 +2,9 @@ import { BROWSER as browser } from 'esm-env';
 import { CheckTransitions } from './transition.svelte.js';
 import { withoutTransition } from './without-transition.js';
 
+/**
+ * Class for toggling dark mode
+ */
 export class DarkMode {
 	_isDark = $state(true);
 	ct = new CheckTransitions();
@@ -12,11 +15,17 @@ export class DarkMode {
 		}
 	}
 
-	get isDark() {
-		return this._isDark;
+	/**
+	 * Get the current mode
+	 */
+	get current(): 'dark' | 'light' {
+		return $derived(this._isDark ? 'dark' : 'light');
 	}
 
-	toggleMode = () => {
+	/**
+	 * Toggle the mode
+	 */
+	private _toggleMode = () => {
 		if (this._isDark) {
 			document.documentElement.classList.remove('dark');
 			localStorage.setItem('theme', 'light');
@@ -32,9 +41,9 @@ export class DarkMode {
 	 * Credit to [@hooray](https://github.com/hooray)
 	 * @see https://github.com/vuejs/vitepress/pull/2347
 	 */
-	toggleDark = (event: MouseEvent) => {
+	toggle = (event: MouseEvent) => {
 		if (!this.ct?.isAppearanceTransition) {
-			this.toggleMode();
+			this._toggleMode();
 			return;
 		}
 
@@ -46,7 +55,7 @@ export class DarkMode {
 		);
 
 		const transition = document.startViewTransition(() => {
-			this.toggleMode();
+			this._toggleMode();
 		});
 
 		const transitionAction = () => {
@@ -84,9 +93,14 @@ export class DarkMode {
  *   import { darkMode } from '$lib/runes.svelte';
  * </script>
  *
- * <button on:click={darkMode.toggleMode}>
+ * <button
+ *  onclick={darkMode.toggle}
+ *  aria-label="Toggle Dark Mode"
+ *  type="button"
+ * >
+ * </button>
  *
- * {#if $darkMode.isDark}
+ * {#if $darkMode.current === 'dark'}
  *   <p>Dark Mode</p>
  * {:else}
  *   <p>Light Mode</p>
