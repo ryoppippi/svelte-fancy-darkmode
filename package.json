@@ -1,7 +1,7 @@
 {
 	"name": "svelte-fancy-darkmode",
 	"type": "module",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"packageManager": "pnpm@10.0.0",
 	"license": "MIT",
 	"sideEffects": [
@@ -28,7 +28,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "eslint --cache .",
-		"format": "nr lint --fix"
+		"format": "nr lint --fix",
+		"release": "nlx bumpp"
 	},
 	"svelte": "./dist/index.js",
 	"peerDependencies": {
