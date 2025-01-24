@@ -7,6 +7,7 @@ import { withoutTransition } from './without-transition.js';
  */
 export class DarkMode {
 	_isDark = $state(true);
+	_mode: 'dark' | 'light' = $derived(this._isDark ? 'dark' : 'light');
 	ct = new CheckTransitions();
 
 	constructor() {
@@ -18,8 +19,8 @@ export class DarkMode {
 	/**
 	 * Get the current mode
 	 */
-	get current(): 'dark' | 'light' {
-		return $derived(this._isDark ? 'dark' : 'light');
+	get current() {
+		return this._mode;
 	}
 
 	/**
