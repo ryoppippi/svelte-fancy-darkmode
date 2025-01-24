@@ -6,6 +6,8 @@
 
 <h1> Svelte Fancy Dark Mode Toggle</h1>
 
+<!-- load the dark mode and set the class to html tag. This is loaded before the page is mounted -->
+<!-- you can alose include this component in +layout.svelte -->
 <DarkMode.Header
 	darkThemeColor='#000000'
 	lightThemeColor='#ffffff'
@@ -13,6 +15,8 @@
 
 <div class='button-container'>
 	{#each { length: 3 } as _ (_)}
+		<!-- darkmode toggle button -->
+		<!-- set icons or text for the button with snippets -->
 		<DarkMode.ToggleButton>
 			{#snippet darkIcon()}
 				<MoonToSunny />
