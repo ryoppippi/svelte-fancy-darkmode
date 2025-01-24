@@ -1,6 +1,6 @@
 <script lang='ts'>
 	import type { Snippet } from 'svelte';
-	import { darkMode } from './runes.svelte';
+	import { mode } from './runes.svelte';
 
 	type Props = {
 		/**
@@ -23,11 +23,11 @@
 
 <button
 	aria-label='Toggle Dark Mode'
-	onclick={darkMode.toggle}
+	onclick={mode.toggle}
 	type='button'
 >
 
-	{#if darkMode.current === 'dark'}
+	{#if mode.current === 'dark'}
 		{@render darkIcon()}
 	{:else}
 		{@render lightIcon()}

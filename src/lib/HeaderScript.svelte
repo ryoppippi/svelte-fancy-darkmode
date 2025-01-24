@@ -5,7 +5,6 @@
 	};
 
 	const { restoreThemeOnLoadPage = true }: Props = $props();
-
 </script>
 
 <svelte:head>
