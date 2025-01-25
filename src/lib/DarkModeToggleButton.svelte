@@ -6,17 +6,17 @@
 		/**
 		 * The icon to display when dark mode is active.
 		 */
-		darkIcon: Snippet;
+		dark: Snippet;
 
 		/**
 		 * The icon to display when dark mode is inactive.
 		 */
-		lightIcon: Snippet;
+		light: Snippet;
 	};
 
 	const {
-		darkIcon,
-		lightIcon,
+		dark,
+		light,
 	}: Props = $props();
 
 </script>
@@ -28,8 +28,8 @@
 >
 
 	{#if mode.current === 'dark'}
-		{@render darkIcon()}
+		{@render dark()}
 	{:else}
-		{@render lightIcon()}
+		{@render light()}
 	{/if}
 </button>
