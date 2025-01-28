@@ -13,7 +13,7 @@ importers:
         version: 1.2.2
     devDependencies:
       '@antfu/ni':
-        specifier: ^23.2.0
+        specifier: ^23.3.0
         version: 23.3.0
       '@iconify-json/line-md':
         specifier: ^1.2.5

@@ -49,7 +49,7 @@
 		"esm-env": "^1.2.2"
 	},
 	"devDependencies": {
-		"@antfu/ni": "^23.2.0",
+		"@antfu/ni": "^23.3.0",
 		"@iconify-json/line-md": "^1.2.5",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
 		"@sveltejs/adapter-static": "^3.0.8",
