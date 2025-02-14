@@ -2,7 +2,7 @@
 	"name": "svelte-fancy-darkmode",
 	"type": "module",
 	"version": "1.1.0",
-	"packageManager": "pnpm@10.2.1",
+	"packageManager": "pnpm@10.3.0",
 	"description": "A fancy dark mode toggle for Svelte",
 	"author": "ryoppippi",
 	"license": "MIT",
