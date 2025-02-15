@@ -43,8 +43,8 @@ importers:
         specifier: ^2.46.1
         version: 2.46.1(eslint@9.20.1)(svelte@5.20.0)
       publint:
-        specifier: ^0.3.4
-        version: 0.3.4
+        specifier: ^0.3.5
+        version: 0.3.5
       svelte:
         specifier: ^5.19.10
         version: 5.20.0
@@ -1683,8 +1683,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  publint@0.3.4:
-    resolution: {integrity: sha512-szQCgQXxLgrI2P+3Znv/KUiglp3YA+A2MeI+9Izjs01Ol5KXKCkdbmz69bM/ivPKMYKHhtKOKkib9VJ6JL3H/w==}
+  publint@0.3.5:
+    resolution: {integrity: sha512-/84pl/T/emCA5hHmNYqsE/x0Voikg278QmFwNiORYqnZgqeII2HSZ+aAGs4frfDpOCQlU1SAgYloz8ayJGMbIg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3901,7 +3901,7 @@ snapshots:
 
   prettier@3.5.0: {}
 
-  publint@0.3.4:
+  publint@0.3.5:
     dependencies:
       '@publint/pack': 0.1.1
       package-manager-detector: 0.2.9
