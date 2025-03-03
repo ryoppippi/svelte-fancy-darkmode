@@ -63,7 +63,7 @@
 		"eslint": "^9.21.0",
 		"eslint-plugin-format": "^1.0.1",
 		"eslint-plugin-svelte": "^3.0.2",
-		"publint": "^0.3.6",
+		"publint": "^0.3.7",
 		"svelte": "^5.20.5",
 		"svelte-check": "^4.1.4",
 		"typescript": "^5.7.3",
