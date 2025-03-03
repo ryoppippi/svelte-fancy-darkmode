@@ -43,7 +43,7 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2(eslint@9.21.0)(svelte@5.20.5)
       publint:
-        specifier: ^0.3.6
+        specifier: ^0.3.7
         version: 0.3.7
       svelte:
         specifier: ^5.20.5
