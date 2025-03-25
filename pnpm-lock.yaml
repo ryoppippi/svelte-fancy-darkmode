@@ -19,8 +19,8 @@ importers:
         specifier: ^1.2.5
         version: 1.2.5
       '@ryoppippi/eslint-config':
-        specifier: npm:@jsr/ryoppippi__eslint-config@^0.0.26
-        version: '@jsr/ryoppippi__eslint-config@0.0.26(@typescript-eslint/utils@8.27.0(eslint@9.23.0)(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.1(eslint@9.23.0))(eslint-plugin-svelte@3.3.3(eslint@9.23.0)(svelte@5.25.3))(eslint@9.23.0)(svelte-eslint-parser@1.1.0(svelte@5.25.3))(typescript@5.8.2)'
+        specifier: npm:@jsr/ryoppippi__eslint-config@^0.0.28
+        version: '@jsr/ryoppippi__eslint-config@0.0.28(@typescript-eslint/utils@8.27.0(eslint@9.23.0)(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.1(eslint@9.23.0))(eslint-plugin-svelte@3.3.3(eslint@9.23.0)(svelte@5.25.3))(eslint@9.23.0)(svelte-eslint-parser@1.1.0(svelte@5.25.3))(typescript@5.8.2)'
       '@sveltejs/adapter-static':
         specifier: ^3.0.8
         version: 3.0.8(@sveltejs/kit@2.20.2(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.3)(vite@6.2.2(yaml@2.7.0)))(svelte@5.25.3)(vite@6.2.2(yaml@2.7.0)))
@@ -437,8 +437,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@jsr/ryoppippi__eslint-config@0.0.26':
-    resolution: {integrity: sha512-Vp1fMoi2oV4jZSQCtVJMeUN7VIMJ6kuzodoiSStCMGIGcoQduAe6GpEE9TbgND2xteOZqW1+vKDjaeuk8zZkmQ==, tarball: https://npm.jsr.io/~/11/@jsr/ryoppippi__eslint-config/0.0.26.tgz}
+  '@jsr/ryoppippi__eslint-config@0.0.28':
+    resolution: {integrity: sha512-SdMIz+4PiiuMVV9MWC3aUuOtw5oQy4liZgpPJbF8GXololF+UYEgzxXfSDWDqBTIkZTWdSRgSy964g0lsVB4tg==, tarball: https://npm.jsr.io/~/11/@jsr/ryoppippi__eslint-config/0.0.28.tgz}
 
   '@napi-rs/wasm-runtime@0.2.7':
     resolution: {integrity: sha512-5yximcFK5FNompXfJFoWanu5l8v1hNGqNHh9du1xETp9HWk/B/PzvchX55WYOPaIeNglG8++68AAiauBAtbnzw==}
@@ -2464,7 +2464,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@jsr/ryoppippi__eslint-config@0.0.26(@typescript-eslint/utils@8.27.0(eslint@9.23.0)(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.1(eslint@9.23.0))(eslint-plugin-svelte@3.3.3(eslint@9.23.0)(svelte@5.25.3))(eslint@9.23.0)(svelte-eslint-parser@1.1.0(svelte@5.25.3))(typescript@5.8.2)':
+  '@jsr/ryoppippi__eslint-config@0.0.28(@typescript-eslint/utils@8.27.0(eslint@9.23.0)(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.1(eslint@9.23.0))(eslint-plugin-svelte@3.3.3(eslint@9.23.0)(svelte@5.25.3))(eslint@9.23.0)(svelte-eslint-parser@1.1.0(svelte@5.25.3))(typescript@5.8.2)':
     dependencies:
       '@antfu/eslint-config': 4.11.0(@typescript-eslint/utils@8.27.0(eslint@9.23.0)(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.1(eslint@9.23.0))(eslint-plugin-svelte@3.3.3(eslint@9.23.0)(svelte@5.25.3))(eslint@9.23.0)(svelte-eslint-parser@1.1.0(svelte@5.25.3))(typescript@5.8.2)
       defu: 6.1.4
