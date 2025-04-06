@@ -58,7 +58,7 @@ importers:
         specifier: ^22.1.0
         version: 22.1.0(@vue/compiler-sfc@3.5.13)(svelte@5.25.6)
       vite:
-        specifier: ^6.2.4
+        specifier: ^6.2.5
         version: 6.2.5(yaml@2.7.1)
 
 packages:
