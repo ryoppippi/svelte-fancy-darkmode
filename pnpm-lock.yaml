@@ -46,7 +46,7 @@ importers:
         specifier: ^0.3.10
         version: 0.3.10
       svelte:
-        specifier: ^5.25.6
+        specifier: ^5.25.7
         version: 5.25.7
       svelte-check:
         specifier: ^4.1.5
