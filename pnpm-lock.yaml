@@ -16,7 +16,7 @@ importers:
         specifier: ^24.3.0
         version: 24.3.0
       '@iconify-json/line-md':
-        specifier: ^1.2.6
+        specifier: ^1.2.7
         version: 1.2.7
       '@ryoppippi/eslint-config':
         specifier: npm:@jsr/ryoppippi__eslint-config@^0.0.28
