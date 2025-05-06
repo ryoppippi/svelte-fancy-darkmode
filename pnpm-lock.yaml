@@ -34,7 +34,7 @@ importers:
         specifier: ^5.0.3
         version: 5.0.3(svelte@5.28.2)(vite@6.3.4(yaml@2.7.1))
       eslint:
-        specifier: ^9.25.1
+        specifier: ^9.26.0
         version: 9.26.0
       eslint-plugin-format:
         specifier: ^1.0.1
