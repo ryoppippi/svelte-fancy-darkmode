@@ -23,10 +23,10 @@ importers:
         version: 0.3.7(@typescript-eslint/utils@8.33.0(eslint@9.29.0)(typescript@5.8.3))(@vue/compiler-sfc@3.5.16)(eslint-plugin-format@1.0.1(eslint@9.29.0))(eslint-plugin-svelte@3.9.3(eslint@9.29.0)(svelte@5.34.9))(eslint@9.29.0)(svelte-eslint-parser@1.2.0(svelte@5.34.9))(typescript@5.8.3)
       '@sveltejs/adapter-static':
         specifier: ^3.0.8
-        version: 3.0.8(@sveltejs/kit@2.22.0(@sveltejs/vite-plugin-svelte@5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))
+        version: 3.0.8(@sveltejs/kit@2.22.2(@sveltejs/vite-plugin-svelte@5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))
       '@sveltejs/kit':
-        specifier: ^2.22.0
-        version: 2.22.0(@sveltejs/vite-plugin-svelte@5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9)
+        specifier: ^2.22.2
+        version: 2.22.2(@sveltejs/vite-plugin-svelte@5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9)
       '@sveltejs/package':
         specifier: ^2.3.11
         version: 2.3.11(svelte@5.34.9)(typescript@5.8.3)
@@ -574,8 +574,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/kit@2.22.0':
-    resolution: {integrity: sha512-DJm0UxVgzXq+1MUfiJK4Ridk7oIQsIets6JwHiEl97sI6nXScfXe+BeqNhzB7jQIVBb3BM51U4hNk8qQxRXBAA==}
+  '@sveltejs/kit@2.22.2':
+    resolution: {integrity: sha512-2MvEpSYabUrsJAoq5qCOBGAlkICjfjunrnLcx3YAk2XV7TvAIhomlKsAgR4H/4uns5rAfYmj7Wet5KRtc8dPIg==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -2627,11 +2627,11 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/adapter-static@3.0.8(@sveltejs/kit@2.22.0(@sveltejs/vite-plugin-svelte@5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))':
+  '@sveltejs/adapter-static@3.0.8(@sveltejs/kit@2.22.2(@sveltejs/vite-plugin-svelte@5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))':
     dependencies:
-      '@sveltejs/kit': 2.22.0(@sveltejs/vite-plugin-svelte@5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9)
+      '@sveltejs/kit': 2.22.2(@sveltejs/vite-plugin-svelte@5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9)
 
-  '@sveltejs/kit@2.22.0(@sveltejs/vite-plugin-svelte@5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9)':
+  '@sveltejs/kit@2.22.2(@sveltejs/vite-plugin-svelte@5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9))(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9)':
     dependencies:
       '@sveltejs/acorn-typescript': 1.0.5(acorn@8.15.0)
       '@sveltejs/vite-plugin-svelte': 5.1.0(rolldown-vite@7.0.3(esbuild@0.25.5)(yaml@2.8.0))(svelte@5.34.9)
@@ -2882,7 +2882,7 @@ snapshots:
       '@vue/shared': 3.5.16
       estree-walker: 2.0.2
       magic-string: 0.30.17
-      postcss: 8.5.4
+      postcss: 8.5.6
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.16':
