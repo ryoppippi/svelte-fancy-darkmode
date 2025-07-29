@@ -50,7 +50,7 @@
 		"preinstall": "nlx only-allow pnpm"
 	},
 	"peerDependencies": {
-		"svelte": "^5.36.16"
+		"svelte": "^5.36.17"
 	},
 	"dependencies": {
 		"esm-env": "^1.2.2"
@@ -68,7 +68,7 @@
 		"eslint-plugin-format": "^1.0.1",
 		"eslint-plugin-svelte": "^3.11.0",
 		"publint": "^0.3.12",
-		"svelte": "^5.36.16",
+		"svelte": "^5.36.17",
 		"svelte-check": "^4.3.0",
 		"typescript": "^5.8.3",
 		"unplugin-icons": "^22.1.0",
