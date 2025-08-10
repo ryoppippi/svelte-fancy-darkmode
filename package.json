@@ -59,7 +59,7 @@
 		"@antfu/ni": "^25.0.0",
 		"@iconify-json/line-md": "^1.2.8",
 		"@ryoppippi/eslint-config": "^0.3.7",
-		"@sveltejs/adapter-static": "^3.0.8",
+		"@sveltejs/adapter-static": "^3.0.9",
 		"@sveltejs/kit": "^2.27.1",
 		"@sveltejs/package": "^2.4.0",
 		"@sveltejs/vite-plugin-svelte": "^6.1.0",
