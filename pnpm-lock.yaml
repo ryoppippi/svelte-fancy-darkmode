@@ -28,8 +28,8 @@ importers:
         specifier: ^2.27.3
         version: 2.27.3(@sveltejs/vite-plugin-svelte@6.1.0(rolldown-vite@7.1.0(yaml@2.8.0))(svelte@5.38.0))(rolldown-vite@7.1.0(yaml@2.8.0))(svelte@5.38.0)
       '@sveltejs/package':
-        specifier: ^2.4.0
-        version: 2.4.0(svelte@5.38.0)(typescript@5.9.2)
+        specifier: ^2.4.1
+        version: 2.4.1(svelte@5.38.0)(typescript@5.9.2)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.1.0
         version: 6.1.0(rolldown-vite@7.1.0(yaml@2.8.0))(svelte@5.38.0)
@@ -436,8 +436,8 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.3 || ^6.0.0 || ^7.0.0-beta.0
 
-  '@sveltejs/package@2.4.0':
-    resolution: {integrity: sha512-DZzPhkSkxJDBI2o07FbyrI7pxOMXl0j4RR5AB0aH/RVnoBC5lBl4v4FAW5WFrTRu3IC3H9y00MIia4uZ1buX+w==}
+  '@sveltejs/package@2.4.1':
+    resolution: {integrity: sha512-dFj78EMy8Vgqsj5Tv2rPuPmtpyqYiJDL1QGhWjK4xW3g77ffF26ovoNBHNg/NZG9ZdTUUDb4rov6We3gW1pamg==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     peerDependencies:
@@ -2314,7 +2314,7 @@ snapshots:
       svelte: 5.38.0
       vite: rolldown-vite@7.1.0(yaml@2.8.0)
 
-  '@sveltejs/package@2.4.0(svelte@5.38.0)(typescript@5.9.2)':
+  '@sveltejs/package@2.4.1(svelte@5.38.0)(typescript@5.9.2)':
     dependencies:
       chokidar: 4.0.3
       kleur: 4.1.5
