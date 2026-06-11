@@ -70,7 +70,7 @@
 		"publint": "^0.3.12",
 		"svelte": "^5.38.2",
 		"svelte-check": "^4.3.1",
-		"typescript": "^5.9.2",
+		"typescript": "^6.0.3",
 		"unplugin-icons": "^22.2.0",
 		"vite": "npm:rolldown-vite@latest"
 	}
