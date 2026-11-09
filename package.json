@@ -47,7 +47,7 @@
 		"lint": "eslint --cache .",
 		"format": "nr lint --fix",
 		"release": "nr lint && nr build && publint && nlx bumpp",
-		"preinstall": "nlx only-allow pnpm"
+		"preinstall": "npx only-allow pnpm"
 	},
 	"peerDependencies": {
 		"svelte": "^5.38.2"
