@@ -1,5 +1,4 @@
-onlyBuiltDependencies:
-  - esbuild
-  - unrs-resolver
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
 engineStrict: true
-useNodeVersion: 22.15.0
